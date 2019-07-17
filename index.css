@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h1, h2, .reset-container {
+    text-align: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  section {
+    border: gray;
+    margin: 0px 10px 10px 15px;
+    padding: 15px;
+  }
+
+  fieldset {
+    display: flex;
+  }
+
+  label, button, input {
+    margin: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
